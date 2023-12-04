@@ -1,0 +1,113 @@
+@import url(../styles.css);
+@import url(../components/header.css);
+
+body {
+  width: 100vw;
+  background-color: var(--blackColor);
+  font-family: var(--fonte);
+}
+
+.numeros {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: var(--lightgreyColor);
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+  border-radius: 15px 15px 0 0;
+}
+
+div.numeros-header {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+div.numeros-header div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+div.numeros-header div.numeros-bnt-buscar {
+  width: 50%;
+}
+div.numeros-header div button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+  border: none;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: var(--bold);
+}
+
+.numeros-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.411);
+  backdrop-filter: blur(5px);
+}
+hr{
+    width: 100%;
+    height: 1px;
+}
+.modal {
+  width: 95vw;
+  max-width: 400px;
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1rem 0;
+  border-radius: 15px;
+  border: 1px solid var(--greyColor);
+}
+div.modal h2{
+    font-weight: var(--regular);
+}
+div.modal input{
+    width: 100%;
+    padding:.5rem ;
+    border: 1px solid var(--greyColor);
+    border-radius: 5px;
+    margin-top: .5rem;
+}
+div.modal h2,div.modal div{
+    padding:0 1rem;
+    width: 100%;
+    color: var(--darkgreyColor);
+}
+div.modal button{
+    background-color: var(--blueColor);
+    border: none;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem 1rem;
+    color: var(--whiteColor);
+    font-size: 1.2rem;
+    font-weight: var(--bold);
+    border-radius: 5px;
+    align-self: end;
+    margin-right: 1rem;
+}

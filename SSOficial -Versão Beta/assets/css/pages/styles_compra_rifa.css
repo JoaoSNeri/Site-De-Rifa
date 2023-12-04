@@ -1,0 +1,6 @@
+@import url(../components/header.css);
+@import url(../components/pagina_compra.css);
+@import url(../pages/styles_numeros.css);
+body{
+    background-color: black;
+}

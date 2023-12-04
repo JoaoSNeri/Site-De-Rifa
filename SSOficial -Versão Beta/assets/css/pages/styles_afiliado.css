@@ -1,0 +1,104 @@
+@import url(../components/header.css);
+@import url(../styles.css);
+
+
+body {
+    width: 100vw;
+    background-color: var(--blackColor);
+    font-family: var(--fonte);
+}
+.dashboard{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--lightgreyColor);
+    gap: 1rem;
+    border-radius: 15px;
+    margin: 10px;
+}
+.container-text h3{
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-dashboard{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+.card-dashboard{
+    margin-top: 15px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.card-dashboard-two{
+    margin-top: 15px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.container-card-infos{
+    
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.container-card-infos span{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.container-card-cotas h4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container-cards-dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-btn-gerar-link{
+    margin-top: 5px;
+}
+.gerar-link-btn{
+    width: 100%;
+    background-color: var(--greenColor);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.container-copy-link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.input-link{
+    width: 75%;
+    border-radius: 5px; 
+}
+.btn-copy-link{
+    width: 23%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--greenColor);
+    color: white;
+}
+

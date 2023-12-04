@@ -1,0 +1,76 @@
+@import url(../styles.css);
+@import url(../components/header.css);
+@import url(../components/sorteio-secundario.css);
+
+body {
+  width: 100vw;
+  background-color: var(--blackColor);
+  font-family: var(--fonte);
+}
+.filter {
+  width: 90vw;
+  height: auto;
+  background-color: var(--whiteColor);
+  padding: .5rem 1rem;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.filters {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--light);
+}
+.filters div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 12px;
+  background-color: rgb(249, 249, 249);
+}
+.filters div button {
+  font-size: 1rem;
+  padding: 0.5rem 4px;
+  border: none;
+  background-color: rgb(249, 249, 249);
+  outline: none;
+}
+.filters div button:focus {
+  background-color: var(--blueColor);
+}
+.sorteios {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--lightgreyColor);
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+  border-radius: 15px 15px 0 0;
+}
+.sorteios-header {
+  align-self: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+.sorteios-header svg {
+  width: 20px;
+  height: 20px;
+}
+.sorteios-header h2,
+.sorteios-header p {
+  line-height: 30px;
+  vertical-align: bottom;
+}
+.sorteios-header p {
+    vertical-align: bottom;
+  font-weight: var(--light);
+}

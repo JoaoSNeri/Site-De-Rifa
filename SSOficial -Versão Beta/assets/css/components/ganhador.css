@@ -1,0 +1,46 @@
+@import url(../styles.css);
+
+.ganhador-div {
+  width: 95vw;
+  height: auto;
+  background-color: var(--whiteColor);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  -webkit-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  color: var(--darkgreyColor);
+}
+
+.ganhador-div img {
+  width: 20%;
+  border-radius: 15px;
+}
+
+.ganhador-div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.ganhador-div div h3 {
+  font-size: 1rem;
+  font-weight: var(--bold);
+}
+.ganhador-div div p {
+  font-size: 0.8rem;
+  font-weight: var(--light);
+}
+
+.ganhador-div svg,.ganhador-div img:last-child {
+  width: 40px;
+  height: 40px;
+  fill: var(--whiteColor);
+  background-color: var(--lightgreyColor);
+  border-radius: 50px;
+}

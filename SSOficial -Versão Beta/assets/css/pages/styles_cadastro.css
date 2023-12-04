@@ -1,0 +1,80 @@
+@import url(../styles.css);
+@import url(../components/header.css);
+
+body {
+  width: 100vw;
+  background-color: var(--blackColor);
+  font-family: var(--fonte);
+}
+
+.cadastro {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--lightgreyColor);
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  border-radius: 15px 15px 0 0;
+}
+.cadastro svg{
+    background-color: var(--greyColor);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    padding: .5rem;
+    fill: var(--whiteColor);
+}
+.cadastro div.form{
+    background-color: var(--whiteColor);
+    width: 100%;
+    border-radius: 15px;
+    padding: 1rem;
+}
+div.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cadastro fieldset{
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: .25rem;
+    margin-bottom: .5rem;
+}
+fieldset label{
+    font-size: .9rem;
+    font-weight: var(--bold);
+    color: var(--darkgreyColor);
+}
+fieldset input{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid var(--greyColor);
+}
+fieldset select{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid var(--greyColor);
+}
+
+div.form input[type="submit"]{
+    width: 150px;
+    padding: .5rem;
+    border-radius: 5px;
+    border:none;
+    background-color: var(--darkgreyColor);
+    color: var(--whiteColor);
+    font-weight: var(--bold);
+    padding: .5rem 1rem;
+    justify-self: center;
+    margin-top: 1rem;
+}

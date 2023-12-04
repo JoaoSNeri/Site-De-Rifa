@@ -1,0 +1,71 @@
+@import url(../styles.css);
+
+.sorteio-principal {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border-radius: 15px;
+  padding-bottom: 1rem;
+  gap: 5px;
+  background-color: var(--whiteColor);
+  -webkit-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+}
+.sorteio-principal-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+.sorteio-principal-header svg {
+  width: 30px;
+  height: 30px;
+}
+.sorteio-principal-header h2,
+.sorteio-principal-header p {
+  line-height: 30px;
+  vertical-align: text-bottom;
+}
+
+.sorteio-principal-body img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.sorteio-principal-footer {
+  display: flex;
+  flex-direction: column;
+}
+.sorteio-principal-footer h3 {
+  padding-left: 10px;
+  font-size: 1.5rem;
+  font-weight: var(--regular);
+}
+.sorteio-principal-footer p {
+  padding-left: 10px;
+  font-size: 1rem;
+  font-weight: var(--light);
+}
+.sorteio-principal-footer h5 {
+  font-size: 0.9rem;
+  background-color: var(--greenColor);
+  width: 95px;
+  padding: 0 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: var(--whiteColor);
+  animation: fadeOut 3s infinite;
+  border-radius: 3px;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

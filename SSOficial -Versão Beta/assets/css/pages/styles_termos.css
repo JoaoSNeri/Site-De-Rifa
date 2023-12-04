@@ -1,0 +1,52 @@
+@import url(../styles.css);
+@import url(../components/header.css);
+
+body {
+  width: 100vw;
+  background-color: var(--blackColor);
+  font-family: var(--fonte);
+}
+
+.termo {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--lightgreyColor);
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 15px 15px 0 0;
+}
+.termo-header {
+  align-self: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+.termo-header svg {
+  width: 30px;
+  height: 30px;
+  fill: black;
+}
+.termo-header h2 {
+  line-height: 30px;
+  vertical-align: bottom;
+  font-size: 1.3rem;
+  vertical-align: bottom;
+  font-weight: var(--bold);
+}
+.termo-header p {
+  line-height: 30px;
+  vertical-align: bottom;
+  font-size: 0.8rem;
+  font-weight: var(--light);
+}
+
+.termo-text p{
+  vertical-align: bottom;
+  font-size: 1rem;
+  font-weight: var(--light);
+}

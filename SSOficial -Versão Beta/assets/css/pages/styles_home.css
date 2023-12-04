@@ -1,0 +1,52 @@
+@import url(../components/header.css);
+@import url(../components/sorteio-principal.css);
+@import url(../components/sorteio-secundario.css);
+body {
+  width: 100vw;
+  background-color: var(--blackColor);
+  font-family: var(--fonte);
+}
+
+.sorteios{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--lightgreyColor);
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-radius: 15px 15px 0 0;
+}
+
+.duvida{
+  width: 90vw;
+  height: auto;
+}
+.duvidas{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: var(--greyColor);
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  gap: 2rem;
+}
+.duvidas p{
+  font-size: 40px;
+}
+
+.duvidas div h3{
+  font-size: 1.3rem;
+  font-weight: var(--bold);
+}
+.duvidas div p{
+  font-size: 1rem;
+  font-weight: var(--light);
+}

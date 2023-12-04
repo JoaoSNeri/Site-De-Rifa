@@ -1,0 +1,54 @@
+@import url(../styles.css);
+
+.sorteio-secundario {
+  width: 90vw;
+  height: auto;
+  background-color: var(--whiteColor);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 0.5rem;
+  gap: 1rem;
+  -webkit-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.5);
+}
+
+.sorteio-secundario img {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.sorteio-secundario div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.sorteio-secundario div h3 {
+  font-size: 1.1rem;
+  font-weight: var(--bold);
+}
+.sorteio-secundario div p {
+  font-size: 0.9rem;
+  font-weight: var(--light);
+}
+.sorteio-secundario h5 {
+  font-size: 1rem;
+  background-color: var(--greenColor);
+  width: 95px;
+  padding: 0 5px;
+  margin-top: 5px;
+  color: var(--whiteColor);
+  animation: fadeOut 3s infinite;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

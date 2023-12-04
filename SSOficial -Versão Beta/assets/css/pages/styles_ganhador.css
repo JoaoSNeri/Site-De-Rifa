@@ -1,0 +1,46 @@
+@import url(../styles.css);
+@import url(../components/header.css);
+@import url(../components/ganhador.css);
+
+body {
+  width: 100vw;
+  background-color: var(--blackColor);
+  font-family: var(--fonte);
+}
+
+.ganhador {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--lightgreyColor);
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 15px 15px 0 0;
+}
+
+.ganhador-header {
+    align-self: start;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+  }
+  .ganhador-header svg {
+    width: 20px;
+    height: 20px;
+    fill: orange;
+  }
+  .ganhador-header h2,
+  .ganhador-header p {
+    line-height: 30px;
+    vertical-align: bottom;
+  }
+  .ganhador-header p {
+      font-size: .8rem;
+      vertical-align: bottom;
+    font-weight: var(--light);
+  }
+  
